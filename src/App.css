@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  font-family: 'Sedgwick Ave Display', cursive;
+  font-weight: bold;
 }
 
 .App-logo {
@@ -35,4 +37,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.inline-center{
+  display: flex;
+  margin: auto;
+}
+
+.flexbox{
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card{
+  text-align: center;
 }
